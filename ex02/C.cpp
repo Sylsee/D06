@@ -6,7 +6,7 @@
 /*   By: spoliart <spoliart@42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/07 23:27:34 by spoliart          #+#    #+#             */
-/*   Updated: 2022/02/07 23:27:34 by spoliart         ###   ########.fr       */
+/*   Updated: 2022/02/08 00:26:10 by spoliart         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,8 +29,7 @@ C::~C( void )
 
 C &	C::operator=( C const & rhs )
 {
-	if (this != &rhs)
-		*this = rhs;
+	(void)rhs;
 
 	return *this;
 }
